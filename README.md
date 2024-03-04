@@ -13,7 +13,7 @@ sudo apt install curl wget zip unzip git ssh -y
 
 ## Setup a fancy prompt
 ```
-┌──(13:34)-(fvoland@DESKTOP-T4A7GRR)-[~]
+┌──(13:34)-(user@host)-[~]
 └─$ _
 ```
 ### Debian / Ubuntu
