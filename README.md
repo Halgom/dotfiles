@@ -11,7 +11,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install curl wget zip unzip git ssh -y
 ```
 
-## Setup a fancy prompt
+## Setup a fancy prompt (Optional)
 ```
 ┌──(13:34)-(user@host)-[~]
 └─$ _
