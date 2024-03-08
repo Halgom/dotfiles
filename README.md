@@ -32,6 +32,10 @@ PS1='${debian_chroot:+($debian_chroot)}┌──(\A)-(\u@\h)-[\w] $(__git_ps1 "(
   ```
   echo "alias ll='ls -al'" >> ~/.bash_aliases
   ```
+-
+  ```
+  echo "alias grep='grep --color=auto'" >> ~/.bash_aliases
+  ```
 
 ## Create SSH key pair
 ```
