@@ -1,6 +1,4 @@
-# On new Linux system install
-
-## Update
+## Update System
 ### Debian / Ubuntu (apt based)
 ```
 sudo apt update && sudo apt upgrade -y
@@ -37,9 +35,14 @@ PS1='${debian_chroot:+($debian_chroot)}┌──(\A)-(\u@\h)-[\w] $(__git_ps1 "(
   echo "alias grep='grep --color=auto'" >> ~/.bash_aliases
   ```
 
-## Create SSH key pair
+## Configure SSH
 ```
 ssh-keygen
 ```
 
 Register your public key on the remote services you use (github...)
+
+## Other stuff
+
+- [Install Docker Engine](https://github.com/Halgom/linux-setup/wiki/Install-Docker-Engine)
+- [Installing Node.js](https://github.com/Halgom/linux-setup/wiki/Intalling-Node.js)
